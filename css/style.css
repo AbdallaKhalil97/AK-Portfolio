@@ -1,11 +1,12 @@
-/* .header {
+
+.header {
     padding: 80px; 
     text-align: center; 
     background: black; 
     color: blanchedalmond; 
   } 
-  */
-    /* .header h1 {
+  
+   .header h1 {
     font-size: 40px;
   }
   body{
@@ -16,8 +17,8 @@
     overflow: hidden; 
     background-color:#1f007f91; 
 
-  } */
-  /* .navibar a {
+  } 
+   .navibar a {
     float: left; 
     display: block; 
     color:blanchedalmond; 
@@ -35,4 +36,4 @@
     }
   li {
 list-style: none;  
-} */
+} 
