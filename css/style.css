@@ -16,24 +16,56 @@
   .navibar {
     overflow: hidden; 
     background-color:#1f007f91; 
-
-  } 
-   .navibar a {
-    float: left; 
-    display: block; 
+    width:auto
+} 
+   
+.navibar a {
+    /* float: left;  */
+    display: inline-block; 
     color:blanchedalmond; 
     text-align: center; 
     padding: 8px 43px; 
     text-decoration: none; 
     margin-bottom: 17px;
   }
-  .navibar a.right {
-    float: right; 
+ 
+   .navibar a.right {
+    display: flexbox;
   }
-  
+   
   .navibar a:hover {
     background-color:rgb(138, 138, 138); 
     }
-  li {
+  
+    li {
 list-style: none;  
 } 
+.row { 
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sidecontent {
+    flex: 20%; 
+    background-color:rgba(255, 235, 205, 0.795); 
+    padding: 20px;
+    margin-right: 400px;
+    height: 400px;
+    max-width: 200px; 
+  }
+  
+  .maincontent {
+    flex: 80%; 
+    background-color: rgba(255, 235, 205, 0.795); 
+    padding: 20px; 
+    margin-left: 400px;
+    height: 500px;
+    }
+.footer{
+    text-align: center;
+}
+.contactbox{
+    text-align: center;
+    border: ivory;
+    border-width: thick;
+}
