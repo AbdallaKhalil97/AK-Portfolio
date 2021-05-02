@@ -1,85 +1,85 @@
-
 .header {
-    padding: 80px; 
-    text-align: center; 
-    background: black; 
-    color: blanchedalmond; 
-  } 
-  body{
-      background-color: black;
-      color: blanchedalmond;
-  }
-  .navibar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    overflow: hidden; 
-    background-color:#1f007f91; 
-    width:auto
-} 
-  .navibar ul {
-    display: flex;
-
-  } 
-  .navibar li {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 20px;
-  }
-.navibar a {
-    display: inline-block; 
-    color:blanchedalmond; 
-    text-align: center; 
-    padding: 8px 43px; 
-    text-decoration: none; 
-    margin-bottom: 17px;
-  }
- 
-   .navibar a.right {
-    display: flexbox;
-  }
-   
-  .navibar a:hover {
-    background-color:rgb(138, 138, 138); 
-    }
-  
-li {
-     list-style: none;
-     font-family: 'Roboto', sans-serif;  
-} 
-
-.row { 
-    display: flex;
-  }
-
-  .sidecontent {
-    width: 20%; 
-    background-color:rgba(255, 235, 205, 0.795); 
-    margin: 5px; 
-    height: 400px;
-    }
-  
-  .maincontent {
-    width: 80%; 
-    background-color: rgba(255, 235, 205, 0.795); 
-    margin: 5px;  
-    height: 400px;
-    }
-.footer{
-    text-align: center;
+  padding: 80px;
+  text-align: center;
+  background: black;
+  color: blanchedalmond;
 }
-.contactbox{
-    text-align: center;
-    border: 5px solid rgba(255, 235, 205, 0.795);
-  }
+body {
+  background-color: black;
+  color: blanchedalmond;
+}
+.navibar {
+  /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+  overflow: hidden;
+  background-color: #1f007f91;
+  width: auto;
+}
+.navibar ul {
+  display: flex;
+  padding: 0%;
+}
+.navibar li {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  flex: 1;
+}
+.navibar a {
+  display: inline-block;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 8px 43px;
+  text-decoration: none;
+  margin-bottom: 17px;
+}
+
+.navibar a.right {
+  display: flexbox;
+}
+
+.navibar a:hover {
+  background-color: rgb(138, 138, 138);
+}
+
+li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.sidecontent {
+  width: 20%;
+  background-color: rgba(255, 235, 205, 0.795);
+  margin: 5px;
+  height: 400px;
+}
+
+.maincontent {
+  width: 80%;
+  background-color: rgba(255, 235, 205, 0.795);
+  margin: 5px;
+  height: 400px;
+}
+.footer {
+  text-align: center;
+}
+.contactbox {
+  text-align: center;
+  border: 5px solid rgba(255, 235, 205, 0.795);
+}
 h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h2 {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
-.abdalla{
+.abdalla {
   height: 200px;
 }

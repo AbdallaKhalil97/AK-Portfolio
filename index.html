@@ -15,16 +15,16 @@
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="home">
            <img class="abdalla" src="./assets/abdalla pic.jpeg" alt="abdalla smiling">
            <img src="./assets/abdalla logo.jpeg" alt="logo">
            <p>A visual representation of all my coding projects, Usually written in CSS and HTML.</p>
            <nav class="navibar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contact me">Contact Me</a></li>
+                    <li><a href="#about me">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                
                 </ul>
             </nav>
@@ -32,21 +32,23 @@
     </header>
 <div class="row">
     <div class="sidecontent"></div>
-    <div class="maincontent"></div>
+    <div class="maincontent" id="portfolio">
+    </div>
+    <div id="about me"></div>
 </div>
-<div class="contactbox">
-<h2 class="talktome">Talk to me!!</h2>
-<ul>
-    <li>
-        <label class="textRight" for="email">Your email here</label>
-        <input type="text" id="EMAIL" name="users-email">
-    </li>
-    <li>
-        <label class="textRight" for="name">Your name here</label>
-        <input type="text" id="name" name="users-name"> 
-    </li>
-</ul>
-<div class="centretext"><button type="submit">Hit me!</button></div>
+<div class="contactbox" id="contact me">
+    <h2 class="talktome">Talk to me!!</h2>
+    <ul>
+        <li>
+            <label class="textRight" for="email">Your email here</label>
+            <input type="text" id="EMAIL" name="users-email">
+        </li>
+        <li>
+            <label class="textRight" for="name">Your name here</label>
+            <input type="text" id="name" name="users-name"> 
+        </li>
+    </ul>
+    <div class="centretext"><button type="submit">Hit me!</button></div>
 </div>
 <div class="footer">
     <h4>thank you for looking through! <br> made with a lot of coffee and love by Abdalla</h4>
