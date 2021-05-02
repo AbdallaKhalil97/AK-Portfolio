@@ -5,22 +5,27 @@
     background: black; 
     color: blanchedalmond; 
   } 
-  
-   .header h1 {
-    font-size: 40px;
-  }
   body{
       background-color: black;
       color: blanchedalmond;
   }
   .navibar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     overflow: hidden; 
     background-color:#1f007f91; 
     width:auto
 } 
-   
+  .navibar ul {
+    display: flex;
+
+  } 
+  .navibar li {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+  }
 .navibar a {
-    /* float: left;  */
     display: inline-block; 
     color:blanchedalmond; 
     text-align: center; 
@@ -37,35 +42,44 @@
     background-color:rgb(138, 138, 138); 
     }
   
-    li {
-list-style: none;  
+li {
+     list-style: none;
+     font-family: 'Roboto', sans-serif;  
 } 
+
 .row { 
     display: flex;
-    flex-wrap: wrap;
   }
 
   .sidecontent {
-    flex: 20%; 
+    width: 20%; 
     background-color:rgba(255, 235, 205, 0.795); 
-    padding: 20px;
-    margin-right: 400px;
+    margin: 5px; 
     height: 400px;
-    max-width: 200px; 
-  }
+    }
   
   .maincontent {
-    flex: 80%; 
+    width: 80%; 
     background-color: rgba(255, 235, 205, 0.795); 
-    padding: 20px; 
-    margin-left: 400px;
-    height: 500px;
+    margin: 5px;  
+    height: 400px;
     }
 .footer{
     text-align: center;
 }
 .contactbox{
     text-align: center;
-    border: ivory;
-    border-width: thick;
+    border: 5px solid rgba(255, 235, 205, 0.795);
+  }
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.abdalla{
+  height: 200px;
 }
