@@ -7,11 +7,12 @@
 body {
   background-color: black;
   color: blanchedalmond;
+  
 }
 .navibar {
-  /* display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   overflow: hidden;
   background-color: #1f007f91;
   width: auto;
@@ -52,6 +53,9 @@ li {
 }
 
 .sidecontent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   width: 20%;
   background-color: rgba(255, 235, 205, 0.795);
   margin: 5px;
@@ -59,6 +63,10 @@ li {
 }
 
 .maincontent {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+  flex-wrap: wrap;
   width: 80%;
   background-color: rgba(255, 235, 205, 0.795);
   margin: 5px;
@@ -83,3 +91,71 @@ h2 {
 .abdalla {
   height: 200px;
 }
+.portfolio {
+flex-wrap: wrap;
+flex-flow: column-reverse;
+flex 1;
+padding: 5px;
+}
+.aboutme {
+  flex-wrap: wrap;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+.portwords{
+  text-align: end;
+  margin-top: -247px;
+}
+
+.meme1{
+  /* padding: 10px;
+  margin-left: 5px; */
+}
+.meme2 {
+   padding: 10px;
+  margin-bottom: 30px;
+  -ms-flex-item-align: end;
+}
+/* media queries here
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+} */
