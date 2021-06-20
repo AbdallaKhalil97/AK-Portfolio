@@ -5,75 +5,21 @@
   color: blanchedalmond;
 }
 body {
-  background-color: black;
+  background-color: #191818;
   color: blanchedalmond;
   
 }
-.navibar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  overflow: hidden;
-  background-color: #1f007f91;
-  width: auto;
+.abdalla {
+  margin: 20px;
 }
-.navibar ul {
-  display: flex;
-  padding: 0%;
-}
-.navibar li {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 20px;
-  flex: 1;
-}
-.navibar a {
-  display: inline-block;
-  color: blanchedalmond;
-  text-align: center;
-  padding: 8px 43px;
-  text-decoration: none;
-  margin-bottom: 17px;
-}
-
-.navibar a.right {
-  display: flexbox;
-}
-
-.navibar a:hover {
-  background-color: rgb(138, 138, 138);
-}
-
 li {
   list-style: none;
   font-family: "Roboto", sans-serif;
 }
 
-.row {
-  display: flex;
-}
-
-.sidecontent {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  width: 20%;
-  background-color: rgba(255, 235, 205, 0.795);
-  margin: 5px;
-  height: 400px;
-}
-
-.maincontent {
-  display: flex;
-  flex-direction: row-reverse;
-  flex: 1;
-  flex-wrap: wrap;
-  width: 80%;
-  background-color: rgba(255, 235, 205, 0.795);
-  margin: 5px;
-  height: 400px;
-}
 .footer {
   text-align: center;
+  padding: 100px;
 }
 .contactbox {
   text-align: center;
@@ -89,7 +35,10 @@ h2 {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 .abdalla {
-  height: 200px;
+  height: 400px;
+}
+.logo{
+
 }
 .portfolio {
 flex-wrap: wrap;
@@ -107,55 +56,3 @@ h3 {
   text-align: end;
   margin-top: -247px;
 }
-
-.meme1{
-  /* padding: 10px;
-  margin-left: 5px; */
-}
-.meme2 {
-   padding: 10px;
-  margin-bottom: 30px;
-  -ms-flex-item-align: end;
-}
-/* media queries here
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
-
-}
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-
-}
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-}
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-} */

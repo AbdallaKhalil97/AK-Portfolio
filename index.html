@@ -1,28 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicons/favicon-16x16.png"
-    />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png"/>
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&display=swap"
-      rel="stylesheet"
-    />
-    <title>AK Portfolio</title>
+
+    <title>Abdalla</title>
   </head>
   <body>
     <header>
@@ -32,61 +23,65 @@
           src="./assets/abdalla pic.jpeg"
           alt="abdalla smiling"
         />
-        <img src="./assets/abdalla logo.jpeg" alt="logo" />
-        <p>
-          A visual representation of all my coding projects, Usually written in
-          CSS and HTML.
-        </p>
-        <nav class="navibar">
-          <ul>
-            <li><a href="#contactme">Contact Me</a></li>
-            <li><a href="#aboutme">About me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-          </ul>
-        </nav>
+        <img class="logo" src="./assets/abdalla logo.jpeg" alt="logo" />
+
+        <nav class="navbar navbar-light" style="background-color: #54B9F5;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">hit the burger to navigate!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" href="./contactme.html">Contact Me</a>
+                  <a class="nav-link" href="./about-me.html">About me</a>
+                  <a class="nav-link" href="projects.html">Projects</a>
+
+                </div>
+              </div>
+            </div>
+          </nav>
       </div>
     </header>
-    <div class="row">
-      <div class="sidecontent">
-        <div class="aboutme" id="aboutme">
-          <h3>Who am I?</h3>
-          <p>Im originally from egypt and i like to code.</p>
-        </div>
-      </div>
-      <div class="maincontent">
-        <div class="portfolio" id="portfolio">
-            <a class="meme1" href = "https://github.com/AbdallaKhalil97" target = "_blank"> 
-                <img src = "./assets/meme1.jpeg" alt = "meme1"/> 
-             </a><p class="portwords">my first project can be accessed here <br>and this picture of the dog leads to it!</p>
-             <a class="meme2" href = "https://github.com/AbdallaKhalil97" target = "_blank"> 
-                <img src = "./assets/meme2.jpeg" alt = "meme1"/> 
-             </a><p class="portwords">my second project can be accessed here <br>and this picture of a catto leads to it!</p>
 
-            
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card text-white bg-secondary mb-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
         </div>
-    </div>
       </div>
-    </div>
-    <div class="contactbox" id="contactme">
-      <h2 class="talktome">Talk to me!!</h2>
-      <ul>
-        <li>
-          <label for="email">Your email here</label>
-          <input type="text" id="EMAIL" name="users-email" />
-        </li>
-        <li>
-          <label for="name">Your name here</label>
-          <input type="text" id="name" name="users-name" />
-        </li>
-      </ul>
-      <div><button type="submit">Hit me!</button></div>
-    </div>
-    <div class="footer">
+      <div class="col">
+        <div class="card text-white bg-secondary mb-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-white bg-secondary mb-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="footer">
       <h4>
-        Thank you for looking through! <br />
-        Made with a lot of coffee and love by Abdalla
-      </h4>
-    </div>
+             Thank you for looking through! <br />
+            Made with a lot of coffee and love by Abdalla
+           </h4>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
 
